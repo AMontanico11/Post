@@ -1,1 +1,700 @@
-/*SECCIÓN DE HEADER RENATO*/
+/*SECCIÓN DE HEADER Alexis*/
+/*SECCIÓN DE section Renato*/
+/*SECCIÓN DE footer Gerardo*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.contenido{
+    background-color: white;
+    width: 1366px;
+    height: 50px;
+}
+
+.li1{
+    list-style: none;
+    display: inline-block;
+    padding:1em;
+    position: absolute;
+    left: 1031px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.li2{
+    list-style: none;
+    display: inline-block;
+    padding:1em;
+    position: absolute;
+    left: 1105px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.li3{
+    list-style: none;
+    display: inline-block;
+    padding:1em;
+    position: absolute;
+    left: 1169px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.li4{
+    list-style: none;
+    display: inline-block;
+    padding:1em;
+    position: absolute;
+    left: 1250px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0px;
+}
+
+.astro{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    left: 113px;
+    top: 599px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+    top: -5px;
+    position: absolute;
+    left: 18px;
+    width: 140px;
+    
+}
+
+.mundo{
+    background-image: url(https://github.com/jrlopez185/imagenes-suvir/blob/main/MN2.jpeg?raw=true);
+    width: 1366px;
+    height: 511px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.primero{
+    position: absolute;
+    top: 250px;
+    left: 129px;
+}
+
+
+
+.image {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 40px;
+   
+    margin: 15px auto;
+    position: absolute;
+    width: 50px;
+    top: 230px;
+    left: 129px;
+   
+  }
+  
+  .figure img {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image figcaption {
+    color: white;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+   
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+    
+    width: 1000px;
+  }
+  
+  .image.fade2 figcaption {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  
+  .image.push:hover > figcaption {
+    transform: translateY(0px);
+  }
+  
+  .image.fade2:hover > img { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image.fade2:hover > figcaption { 
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+  }
+
+  .figcaption{
+      position: absolute;
+      left: 0px;
+  }
+
+.logo2{
+    position: absolute;
+    top: 235px;
+    left:189px;
+}
+
+
+
+.image2 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 40px;
+    margin: 15px auto;
+    position: absolute;
+    width: 50px;
+    top: 225px;
+    left: 190px;
+  }
+  
+  .figure.segundo {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image2.sf {
+    color: blue;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+    width: 1000px;
+  }
+  
+  .image2.fade.sf { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image2.push:hover > .sf {
+    transform: translateY(0px);
+  }
+  
+  .image2.fade:hover > .segundo { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image2.fade:hover > .sf { 
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 220px;
+    font-family: 'Exo';
+  }
+
+  .sf{
+      position: absolute;
+      left: 0px;
+      width: 900px;
+  }
+
+  .sf{
+      visibility: hidden;
+  }
+
+.logo2{
+    position: absolute;
+    top: 235px;
+    left:189px;
+}
+
+.image3 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 60px;
+    margin: 15px auto;
+    position: absolute;
+    width: 70px;
+    top: 218px;
+    left: 282px;
+  }
+  
+  .figure.segundo3 {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image3.sf3 {
+    color: white;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+    width: 1000px;
+    visibility: hidden;
+  }
+  
+  .image3.fade3.sf3 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  
+  .image3.push:hover > .sf3 {
+    transform: translateY(0px);
+  }
+  
+  .image3.fade3:hover > .segundo3 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image3.fade3:hover > .sf3 { 
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 220px;
+    font-family: 'Exo';
+  }
+
+ .sf3{
+     width: 300px;
+ }
+
+ .sf3{
+     visibility: hidden;
+ }
+
+ .figcaption.sf3{
+     visibility: hidden;
+ }
+
+
+ .image4 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 60px;
+  
+    margin: 15px auto;
+    position: absolute;
+    width: 50px;
+    top: 224px;
+    left: 380px;
+  
+  }
+  
+  .figure.segundo4 {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image4.sf4{
+    color: white;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+  
+    width: 1000px;
+    visibility: hidden;
+  }
+  
+  .image4.fade4.sf4 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+ 
+  
+  .image4.push:hover > .sf4 {
+    transform: translateY(0px);
+  }
+  
+  .image4.fade4:hover > .segundo4 {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image4.fade4:hover > .sf4 {
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 220px;
+    font-family: 'Exo';
+  }
+
+ .sf4{
+     width: 300px;
+ }
+
+ .sf4{
+     visibility: hidden;
+ }
+
+ 
+
+ .image5 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 60px;
+    
+    margin: 15px auto;
+    position: absolute;
+    width: 50px;
+    top: 210px;
+    left: 580px;
+   
+  }
+  
+  .figure.segundo5 {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image5.sf5{
+    color: white;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+    
+    width: 1000px;
+    visibility: hidden;
+  }
+  
+  .image5.fade5.sf5 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  
+  .image5.push:hover > .sf5 {
+    transform: translateY(0px);
+  }
+  
+  .image5.fade5:hover > .segundo5 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image5.fade5:hover > .sf5 { 
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 220px;
+    font-family: 'Exo';
+  }
+
+ .sf5{
+     width: 300px;
+ }
+
+ .sf5{
+     visibility: hidden;
+ }
+
+
+ .image6 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 60px;
+    
+    margin: 15px auto;
+    position: absolute;
+    width: 50px;
+    top: 150px;
+    left: 715px;
+    
+  }
+  
+  .figure.segundo6 {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image6.sf6{
+    color: white;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+    width: 1000px;
+    visibility: hidden;
+  }
+  
+  .image6.fade6.sf6 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  
+  .image6.push:hover > .sf6 {
+    transform: translateY(0px);
+  }
+  
+  .image6.fade6:hover > .segundo6 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image6.fade6:hover > .sf6 { 
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 220px;
+    font-family: 'Exo';
+  }
+
+ .sf6{
+     width: 300px;
+ }
+
+ .sf6{
+     visibility: hidden;
+ }
+
+ 
+
+ .image7 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 60px;
+    
+    margin: 15px auto;
+    position: absolute;
+    width: 50px;
+    top: 185px;
+    left: 990px;
+    
+  }
+  
+  .figure.segundo7 {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image7.sf7{
+    color: white;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+    width: 1000px;
+    visibility: hidden;
+  }
+  
+  .image7.fade7.sf7 {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  
+  
+  .image7.push:hover > .sf7 {
+    transform: translateY(0px);
+  }
+  
+  .image7.fade7:hover > .segundo7 {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image7.fade7:hover > .sf7 { 
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 220px;
+    font-family: 'Exo';
+  }
+
+ .sf7{
+     width: 300px;
+ }
+
+ .sf7{
+     visibility: hidden;
+ }
+
+ 
+
+ .image8 {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    height: 60px;
+    margin: 15px auto;
+    position: absolute;
+    width: 50px;
+    top: 195px;
+    left:1140px;
+    
+  }
+  
+  .figure.segundo8 {
+    width: 59px;
+    transition: all .23s ease;
+    width: 51px;
+  }
+  
+  .image8.sf8{
+    color: white;
+    font-family: 'Exo';
+    left: -30px;
+    line-height: 250px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 100px;
+    
+    width: 1000px;
+    visibility: hidden;
+  }
+  
+  .image8.fade8.sf8 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  
+  
+  .image8.push:hover > .sf8 {
+    transform: translateY(0px);
+  }
+  
+  .image8.fade8:hover > .segundo8 { 
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .image8.fade8:hover > .sf8 { 
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 220px;
+    font-family: 'Exo';
+  }
+
+ .sf8{
+     width: 100px;
+ }
+
+ .sf8{
+     visibility: hidden;
+ }
+
+ .x{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 113px;
+    top: 653px;
+    
+    background: #D9D9D9;
+    border-radius: 3px;
+ }
+
+ .xdos{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 348px;
+    top: 653px;
+    
+    background: #D9D9D9;
+    border-radius: 3px;
+ }
+
+ .xtres{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 583px;
+    top: 653px;
+    
+    background: #D9D9D9;
+    border-radius: 3px;
+ }
+
+ .xcuatro{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 818px;
+    top: 653px;
+    
+    background: #D9D9D9;
+    border-radius: 3px;
+ }
+
+ .xcinco{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 1053px;
+    top: 653px;
+    
+    background: #D9D9D9;
+    border-radius: 3px;
+ }
